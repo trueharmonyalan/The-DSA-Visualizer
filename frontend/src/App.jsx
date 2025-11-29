@@ -1,12 +1,13 @@
 
 import './App.css'
+import Bst from "./componets/binarysearchtree/Bst.jsx";
 
 function App() {
 
 
   return (
     <>
-        <h1>start</h1>
+        <Bst />
       </>
   )
 }
