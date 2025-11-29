@@ -1,26 +1,23 @@
 
 
-function Bst(){
+function Bst(props){
 
     return (
         <>
             <div className="container">
 
                 <div className="node-value">
-                    <p>value=10</p>
+                    <p>value={props.value}</p>
                 </div>
                 <div className="node-references">
                     <div className="node-references-left">
-                        <p>leftNode= 100</p>
+                        <p>leftNode= {props.left}</p>
                     </div>
                     <div className="node-references-right">
-                        <p>rightNode=200</p>
+                        <p>rightNode={props.right}</p>
                     </div>
                 </div>
             </div>
-
-
-
         </>
     )
 
