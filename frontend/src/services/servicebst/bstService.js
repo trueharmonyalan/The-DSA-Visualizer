@@ -37,3 +37,16 @@ class Tree{
     }
 
 }
+const obj = new Tree()
+
+export function receieveInput(value){
+
+    if (isNaN(value)){
+        return alert("enter number")
+    }else{
+        obj.insert(value)
+    }
+
+
+
+}

@@ -1,11 +1,11 @@
+
+/* START: design that applies to binarysearchtree component*/
 .container {
     background-color: gray;
     height: 150px;
     width: 400px;
 
 }
-
-
 
 .node-value{
     display: flex;
@@ -32,4 +32,11 @@
     border: 1px solid black;
     padding: 10px;
 
+}
+/* END: design that applies to binarysearchtree component*/
+
+
+/* START: design that applies to Inputs  component*/
+.input-acceptors{
+    margin-top:100px ;
 }
